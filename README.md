@@ -20,4 +20,4 @@ $ python2 hash.py
 ```
 
 # Screenshot
-<img src=".images/hashbat.png" />
+<img src="images/hashbat.png" />
