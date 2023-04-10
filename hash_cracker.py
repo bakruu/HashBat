@@ -7,7 +7,7 @@ import pyfiglet
 ascii_banner = pyfiglet.figlet_format("HashBat")
 print(ascii_banner)
 
-print("Available Algorithms: MD5 | SHA1 | SHA224 | SHA512 | SHA224 | SHA384")
+print("Available Algorithms: MD5 | SHA1 | SHA224 | SHA256 | SHA512 | SHA384")
 
 hash_type = str(input("What's the hash type? "))
 wordlist_location = str(input("Wordlist location: "))
@@ -29,6 +29,11 @@ for word in lists:
             print(f"\033[1;32m HASH FOUND: {word} \n")
     elif hash_type =="SHA224":
         hash_object = hashlib.sha224(f"{word}".encode('utf-8'))
+        hashed = hash_object.hexdiges()
+        if hash == hashed:
+            print(f"\033[1;32m HASH FOUND: {word} \n")
+    elif hash_type =="SHA256":
+        hash_object = hashlib.sha256(f"{word}".encode('utf-8'))
         hashed = hash_object.hexdiges()
         if hash == hashed:
             print(f"\033[1;32m HASH FOUND: {word} \n")
