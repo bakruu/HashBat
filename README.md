@@ -1,8 +1,8 @@
 # HashBat
 a Hash Cracker tool made with Python
 
+# [ Hash Types ]
 ```
-- md4
 - md5
 - sha1
 - sha224
