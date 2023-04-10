@@ -16,7 +16,7 @@ hash = str(input("Enter hash: "))
 word_list = open(f"{wordlist_location}").read()
 list = word_list.splitlines()
 
-for word in lists:
+for word in list:
     if hash_type == "MD5":
         hash_object = hashlib.md5(f"{word}".encode('utf-8'))
         hashed = hash_object.hexdiges()
