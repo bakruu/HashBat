@@ -13,10 +13,10 @@ a Hash Cracker tool made with Python
 # [ Installation ]
 ```
 $ apt update upgrade
-$ apt install python2 git
-$ git clone https://github.com/ciku370/hasher
+$ apt install python3 git
+$ git clone https://github.com/bakruu/HashBat
 $ cd hasher
-$ python2 hash.py
+$ python3 hash.py
 ```
 
 # Screenshot
