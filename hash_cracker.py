@@ -4,7 +4,7 @@ import pyfiglet
 
 
 
-ascii_banner = pyfiglet.figlet_format("Hash Bat")
+ascii_banner = pyfiglet.figlet_format("HashBat")
 print(ascii_banner)
 
 print("Available Algorithms: MD5 | SHA1 | SHA224 | SHA512 | SHA224 | SHA384")
