@@ -15,8 +15,8 @@ a Hash Cracker tool made with Python
 $ apt update upgrade
 $ apt install python3 git
 $ git clone https://github.com/bakruu/HashBat
-$ cd hasher
-$ python3 hash.py
+$ cd HashBat
+$ python3 hash_cracker.py
 ```
 
 # Screenshot
